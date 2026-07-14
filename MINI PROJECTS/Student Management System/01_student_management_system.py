@@ -37,8 +37,50 @@ def show_hobbies():
 
 #Eligiblity check for internship using if else...
 if age>=18:
-    print("Eligible for Internship")
+    eligibility=("Eligible for Internship")
 else:
-    print("Not Eligible")
+    eligibility=("Not Eligible")
 
-    
+#calling function 
+show_student()
+show_subject()
+show_skills()
+show_hobbies()
+
+#list methods 
+subjects.append("Power BI")
+print("Subjects list:",subjects)
+
+subjects.insert(1,"Java")
+print("Subjects List:",subjects)
+
+subjects.remove("HTML")
+print("Subjects List:",subjects)
+
+subjects.pop(-1)
+print("Subjects List: ",subjects)
+
+subjects.sort()
+print("Sorted Subjects List:",subjects)
+
+subjects.reverse()
+print("Reverse Subjects List:",subjects)
+
+#using dictionary methods
+student.update({"Phone":8827972224}) 
+
+print("=========================")
+print("     STUDENT REPORT      ")
+print("=========================")
+print("  ")
+print(student)
+print("  ")
+print("Subjects:",subjects)
+print("  ")
+print("Skills:",skills)
+print("  ")
+print("Hobbies:",hobbies)
+print("  ")
+print("Eligibility:",eligibility)
+print("  ")
+print("=========================")
