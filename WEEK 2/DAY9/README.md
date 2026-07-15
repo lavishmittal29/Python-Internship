@@ -9,22 +9,34 @@
 - self keyword
 - Methods
 - User-defined Methods
-- Bank Account System (Mini Project)
 
-## Project Features
+## Mini Projects Completed
 
+### 1. Student Management System ✅
+Features:
+- User Input
+- Dictionary
+- List
+- Tuple
+- Set
+- Functions
+- If-Else
+- List Methods
+- Dictionary Methods
+- Student Report
+
+### 2. Bank Account System (OOP) 🔄
+Features:
 - Create Bank Account
-- Store Account Holder Name
-- Store Initial Balance
+- Store Name & Balance
 - Show Account Details
 - Deposit Money
 - Withdraw Money (In Progress)
 
 ## Concepts Learned
 
-- Creating Classes
-- Creating Objects
-- Using Constructors
+- Python Fundamentals Revision
+- OOP Basics
 - Object Attributes
 - Object Methods
 - Updating Object Data
