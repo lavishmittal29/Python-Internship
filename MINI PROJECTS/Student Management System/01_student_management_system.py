@@ -66,14 +66,30 @@ print("Sorted Subjects List:",subjects)
 subjects.reverse()
 print("Reverse Subjects List:",subjects)
 
+#using built-in function
+print("Total Number Subjects:",len(subjects))
+print("Total number Student details ",len(student))
+
+#printing type of blocks
+print("Type of Student:",type(student))
+print("Type of Subject:",type(subjects))
+print("Type of Skills:",type(skills))
+print("Type of Hobbies:",type(skills))
+
 #using dictionary methods
 student.update({"Phone":8827972224}) 
+student.pop("City")
+print("All keys:",student.keys())
+print("All Values:",student.values())
 
 print("=========================")
 print("     STUDENT REPORT      ")
 print("=========================")
 print("  ")
-print(student)
+print("Nmae:",student["Name"])
+print("Age:",student["Age"])
+print("Course:",student["Course"])
+print("Phone:",student["Phone"])
 print("  ")
 print("Subjects:",subjects)
 print("  ")
