@@ -22,6 +22,14 @@ class BankAccount:
 
     def check_balance(self):
         print("Current Balance:",self.balance)
+
+
+class SavingAccount(BankAccount):
+    def add_interest(self):
+        interest=self.balance *0.1 
+        self.balance=self.balance+interest
+        print("Interest Added.")
+
         
             
     
@@ -29,9 +37,15 @@ account1=BankAccount("Lavish",10000)
 account2=BankAccount("Rahul",5000)
 account3=BankAccount("Jayesh",7000)
 
+savings1=SavingAccount("Lavish",10000)
 
-account1.show_details()
-account1.deposit(5000)
-account1.check_balance()
-account1.withdraw(6000)
-account1.check_balance()
+
+# account1.show_details()
+# account1.deposit(5000)
+# account1.check_balance()
+# account1.withdraw(6000)
+# account1.check_balance()
+
+savings1.add_interest()
+savings1.show_details()
+
