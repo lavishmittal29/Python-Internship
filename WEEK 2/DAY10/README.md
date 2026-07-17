@@ -13,23 +13,29 @@
 - Same Method, Different Behavior
 
 ### 3. Encapsulation
-- Public Attributes
-- Private Attributes
+- Public & Private Attributes
 - Getter Method
 - Setter Method
+
+### 4. Abstraction
+- Abstract Class
+- Abstract Method
+- Implementation Hiding
+- ABC Module
 
 ## Programs Completed
 
 - Inheritance Example (Bank Account)
 - Polymorphism Example (Animal, Dog, Cat)
-- Encapsulation Example (Student with Getter & Setter)
+- Encapsulation Example (Student Getter & Setter)
+- Abstraction Example (Planned)
 
 ## Concepts Learned
 
-- Reusing code using inheritance
-- Overriding parent methods in child classes
-- Protecting data using private variables
-- Accessing and updating private data through Getter and Setter methods
+- Reused code using inheritance
+- Overrode parent methods using polymorphism
+- Protected data using encapsulation
+- Learned the purpose and workflow of abstraction
 
 ## Status
 
