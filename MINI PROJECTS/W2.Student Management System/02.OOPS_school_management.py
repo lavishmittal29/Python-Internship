@@ -43,7 +43,8 @@ class School:
             teacher.show_details()
     def search_student(self,id):
         for student in self.student:
-            student.show_details()
+            if student.id==id:
+                student.show_details()
 
 school=School()
 student1=Student("Lavish", 101, 21, "B.Tech")
